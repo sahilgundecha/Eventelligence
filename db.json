@@ -1,0 +1,986 @@
+{
+  "events": [
+    {
+      "eventId": "64f8c7cbd7d6f51234a8b001",
+      "eventName": "Tech Conference 2024",
+      "eventCode": "TC2024",
+      "category": "Technology",
+      "startDate": "05/10/2024",
+      "startTime": "09:00 AM",
+      "endDate": "05/12/2024",
+      "endTime": "05:00 PM",
+      "eventUrl": "https://example.com/tc2024",
+      "registration": {
+        "preRegistrationDate": "2024-02-01",
+        "earlyDate": "2024-03-15",
+        "standardDate": "2024-04-30",
+        "lateDate": "2024-05-09"
+      },
+      "registrationOptions": {
+        "isRegistrationRequired": true,
+        "isFreeEvent": false,
+        "autoRegisterFromWaitlist": true,
+        "isWaitlistAllowed": true,
+        "hasAbstract": true,
+        "isWaiverRequired": false
+      },
+      "miscellaneous": {
+        "fundraisingProduct": "Tech Scholarship Fund",
+        "category": "Education"
+      },
+      "goals": {
+        "registrationGoal": 500,
+        "revenueGoal": 20000
+      },
+      "attendance": {
+        "projected": 400,
+        "guaranteed": 350,
+        "capacity": 500
+      },
+      "count": {
+        "registeredMain": 320,
+        "registeredGuests": 50,
+        "waitlistMain": 30,
+        "waitlistGuests": 10,
+        "available": 120,
+        "remaining": 50
+      },
+      "publishingAndCommunication": {
+        "postToWebDate": "2024-03-01",
+        "removeDate": "2024-05-13",
+        "timeZone": "GMT-05:00 Eastern Time",
+        "confirmationMessage": "Thank you for registering!"
+      },
+      "location": {
+        "address": "123 Tech Ave",
+        "city": "Silicon Valley",
+        "state": "CA",
+        "country": "USA",
+        "postalCode": "94043",
+        "latitude": 37.3861,
+        "longitude": -122.0838
+      },
+      "organizer": {
+        "organizerName": "Tech Events Inc.",
+        "organizerContact": "contact@techevents.com"
+      },
+      "pricing": {
+        "ticketPrice": 150,
+        "discountCode": "EARLYBIRD",
+        "currency": "USD"
+      },
+      "attendees": {
+        "attendeeCount": 370,
+        "attendeeList": ["John Doe", "Jane Smith", "Alice Johnson"]
+      },
+      "socialMedia": {
+        "facebookEventUrl": "https://facebook.com/tc2024",
+        "twitterEventUrl": "https://twitter.com/tc2024",
+        "instagramEventUrl": "https://instagram.com/tc2024"
+      },
+      "fees": [
+        {
+          "registrationFee": {
+            "productName": "Standard Registration",
+            "productCode": "REG2024",
+            "startDate": "2024-02-01",
+            "endDate": "2024-05-09",
+            "price": 150
+          },
+          "cancellationFee": {
+            "productName": "Cancellation Fee",
+            "productCode": "CANC2024",
+            "startDate": "2024-02-01",
+            "endDate": "2024-05-09",
+            "price": 50
+          },
+          "sponsorFee": {
+            "productName": "Gold Sponsorship",
+            "productCode": "SPONSOR2024",
+            "startDate": "2024-01-01",
+            "endDate": "2024-05-01",
+            "price": 5000,
+            "type": "Publicity",
+            "track": "N/A",
+            "session": "N/A"
+          },
+          "transferFee": {
+            "productName": "Transfer Fee",
+            "productCode": "TRANS2024",
+            "startDate": "2024-02-01",
+            "endDate": "2024-05-09",
+            "price": 20
+          },
+          "substitutionFee": {
+            "productName": "Substitution Fee",
+            "productCode": "SUBS2024",
+            "startDate": "2024-02-01",
+            "endDate": "2024-05-09",
+            "price": 30
+          }
+        }
+      ],
+      "sessions": [
+        {
+          "sessionId": "S001",
+          "sessionTitle": "Keynote Address",
+          "sessionCode": "KA2024",
+          "startDate": "2024-05-10",
+          "startTime": "09:30 AM",
+          "endDate": "2024-05-10",
+          "endTime": "10:30 AM",
+          "preRegistration": true,
+          "earlyRegistration": true,
+          "standardRegistration": true,
+          "lateRegistration": false,
+          "fees": {
+            "registrationFee": {
+              "productName": "Keynote Registration",
+              "productCode": "KEYREG2024",
+              "startDate": "2024-02-01",
+              "endDate": "2024-05-09",
+              "price": 50
+            }
+          },
+          "location": {
+            "locationName": "Main Hall",
+            "room": "A1",
+            "setup": "Theater"
+          },
+          "course": {
+            "courseId": "C001",
+            "courseName": "Innovations in Tech"
+          },
+          "faculty": {
+            "speakers": ["Dr. Tech Smith"],
+            "staff": ["Sarah Connor"],
+            "volunteers": ["Tom Riddle"]
+          }
+        },
+        {
+          "sessionId": "S002",
+          "sessionTitle": "Panel Discussion",
+          "sessionCode": "PD2024",
+          "startDate": "05/10/2024",
+          "startTime": "11:00 AM",
+          "endDate": "05/10/2024",
+          "endTime": "12:00 PM",
+          "preRegistration": true,
+          "earlyRegistration": true,
+          "standardRegistration": false,
+          "lateRegistration": false,
+          "fees": {
+            "registrationFee": {
+              "productName": "Panel Registration",
+              "productCode": "PANREG2024",
+              "startDate": "2024-02-01",
+              "endDate": "2024-05-09",
+              "price": 30
+            }
+          },
+          "location": {
+            "locationName": "Main Hall",
+            "room": "A1",
+            "setup": "Theater"
+          },
+          "course": {
+            "courseId": "C002",
+            "courseName": "Future of AI"
+          },
+          "faculty": {
+            "speakers": ["Alice Wonderland"],
+            "staff": ["Harry Potter"],
+            "volunteers": ["Peter Parker"]
+          }
+        }
+      ],
+      "tracks": [
+        {
+          "sessionId": "T001",
+          "sessionTitle": "Blockchain Innovations",
+          "sessionCode": "BLK2024",
+          "startDate": "10/05/2024",
+          "startTime": "01:00 PM",
+          "endDate": "10/10/2024",
+          "endTime": "02:00 PM",
+          "preRegistration": true,
+          "earlyRegistration": true,
+          "standardRegistration": true,
+          "lateRegistration": true,
+          "fees": {
+            "registrationFee": {
+              "productName": "Blockchain Registration",
+              "productCode": "BLKREG2024",
+              "startDate": "2024-02-01",
+              "endDate": "2024-05-09",
+              "price": 40
+            }
+          },
+          "location": {
+            "locationName": "Breakout Room 1",
+            "room": "B1",
+            "setup": "Classroom"
+          },
+          "course": {
+            "courseId": "C003",
+            "courseName": "Understanding Blockchain"
+          },
+          "faculty": {
+            "speakers": ["Dr. Block Chain"],
+            "staff": ["Bruce Wayne"],
+            "volunteers": ["Clark Kent"]
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "64f8c7cbd7d6f51234a8b002",
+      "eventName": "Health & Wellness Expo",
+      "eventCode": "HW2024",
+      "category": "Health",
+      "startDate": "2024-06-20",
+      "startTime": "10:00 AM",
+      "endDate": "2024-06-22",
+      "endTime": "06:00 PM",
+      "eventUrl": "https://example.com/hw2024",
+      "registration": {
+        "preRegistrationDate": "2024-03-01",
+        "earlyDate": "2024-04-30",
+        "standardDate": "2024-06-10",
+        "lateDate": "2024-06-19"
+      },
+      "registrationOptions": {
+        "isRegistrationRequired": true,
+        "isFreeEvent": false,
+        "autoRegisterFromWaitlist": false,
+        "isWaitlistAllowed": false,
+        "hasAbstract": false,
+        "isWaiverRequired": true
+      },
+      "miscellaneous": {
+        "fundraisingProduct": "Health Research Fund",
+        "category": "Wellness"
+      },
+      "goals": {
+        "registrationGoal": 1000,
+        "revenueGoal": 50000
+      },
+      "attendance": {
+        "projected": 800,
+        "guaranteed": 700,
+        "capacity": 1000
+      },
+      "count": {
+        "registeredMain": 600,
+        "registeredGuests": 100,
+        "waitlistMain": 50,
+        "waitlistGuests": 20,
+        "available": 300,
+        "remaining": 200
+      },
+      "publishingAndCommunication": {
+        "postToWebDate": "2024-03-15",
+        "removeDate": "2024-06-23",
+        "timeZone": "GMT-05:00 Eastern Time",
+        "confirmationMessage": "You're registered for the Health & Wellness Expo!"
+      },
+      "location": {
+        "address": "456 Wellness Blvd",
+        "city": "Health City",
+        "state": "CA",
+        "country": "USA",
+        "postalCode": "94045",
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "organizer": {
+        "organizerName": "Wellness Events LLC",
+        "organizerContact": "info@wellnessevents.com"
+      },
+      "pricing": {
+        "ticketPrice": 75,
+        "discountCode": "WELLNESS2024",
+        "currency": "USD"
+      },
+      "attendees": {
+        "attendeeCount": 700,
+        "attendeeList": ["John Smith", "Mary Johnson", "David Brown"]
+      },
+      "socialMedia": {
+        "facebookEventUrl": "https://facebook.com/hw2024",
+        "twitterEventUrl": "https://twitter.com/hw2024",
+        "instagramEventUrl": "https://instagram.com/hw2024"
+      },
+      "fees": [
+        {
+          "registrationFee": {
+            "productName": "Standard Registration",
+            "productCode": "REGHW2024",
+            "startDate": "2024-03-01",
+            "endDate": "2024-06-19",
+            "price": 75
+          },
+          "cancellationFee": {
+            "productName": "Cancellation Fee",
+            "productCode": "CANCHW2024",
+            "startDate": "2024-03-01",
+            "endDate": "2024-06-19",
+            "price": 25
+          },
+          "sponsorFee": {
+            "productName": "Silver Sponsorship",
+            "productCode": "SILVERHW2024",
+            "startDate": "2024-01-01",
+            "endDate": "2024-06-10",
+            "price": 3000,
+            "type": "Publicity",
+            "track": "N/A",
+            "session": "N/A"
+          },
+          "transferFee": {
+            "productName": "Transfer Fee",
+            "productCode": "TRANSHW2024",
+            "startDate": "2024-03-01",
+            "endDate": "2024-06-19",
+            "price": 15
+          },
+          "substitutionFee": {
+            "productName": "Substitution Fee",
+            "productCode": "SUBSHW2024",
+            "startDate": "2024-03-01",
+            "endDate": "2024-06-19",
+            "price": 20
+          }
+        }
+      ],
+      "sessions": [],
+      "tracks": []
+    },
+    {
+      "eventId": "64f8c7cbd7d6f51234a8b003",
+      "eventName": "Creative Arts Festival",
+      "eventCode": "CAF2024",
+      "category": "Arts",
+      "startDate": "2024-07-15",
+      "startTime": "09:00 AM",
+      "endDate": "2024-07-18",
+      "endTime": "05:00 PM",
+      "eventUrl": "https://example.com/caf2024",
+      "registration": {
+        "preRegistrationDate": "2024-04-01",
+        "earlyDate": "2024-05-15",
+        "standardDate": "2024-06-30",
+        "lateDate": "2024-07-14"
+      },
+      "registrationOptions": {
+        "isRegistrationRequired": true,
+        "isFreeEvent": false,
+        "autoRegisterFromWaitlist": true,
+        "isWaitlistAllowed": true,
+        "hasAbstract": false,
+        "isWaiverRequired": false
+      },
+      "miscellaneous": {
+        "fundraisingProduct": "Arts for All Fund",
+        "category": "Creativity"
+      },
+      "goals": {
+        "registrationGoal": 300,
+        "revenueGoal": 15000
+      },
+      "attendance": {
+        "projected": 250,
+        "guaranteed": 200,
+        "capacity": 300
+      },
+      "count": {
+        "registeredMain": 220,
+        "registeredGuests": 20,
+        "waitlistMain": 10,
+        "waitlistGuests": 5,
+        "available": 80,
+        "remaining": 40
+      },
+      "publishingAndCommunication": {
+        "postToWebDate": "2024-05-01",
+        "removeDate": "2024-07-19",
+        "timeZone": "GMT-05:00 Eastern Time",
+        "confirmationMessage": "Thank you for registering for the Creative Arts Festival!"
+      },
+      "location": {
+        "address": "789 Art St",
+        "city": "Art City",
+        "state": "CA",
+        "country": "USA",
+        "postalCode": "94051",
+        "latitude": 36.7783,
+        "longitude": -119.4179
+      },
+      "organizer": {
+        "organizerName": "Creative Events Group",
+        "organizerContact": "contact@creativeevents.com"
+      },
+      "pricing": {
+        "ticketPrice": 60,
+        "discountCode": "CREATIVE2024",
+        "currency": "USD"
+      },
+      "attendees": {
+        "attendeeCount": 240,
+        "attendeeList": ["Emily Clark", "James Davis", "Michael Thompson"]
+      },
+      "socialMedia": {
+        "facebookEventUrl": "https://facebook.com/caf2024",
+        "twitterEventUrl": "https://twitter.com/caf2024",
+        "instagramEventUrl": "https://instagram.com/caf2024"
+      },
+      "fees": [
+        {
+          "registrationFee": {
+            "productName": "Standard Registration",
+            "productCode": "REGCAF2024",
+            "startDate": "2024-04-01",
+            "endDate": "2024-07-14",
+            "price": 60
+          },
+          "cancellationFee": {
+            "productName": "Cancellation Fee",
+            "productCode": "CANCCAF2024",
+            "startDate": "2024-04-01",
+            "endDate": "2024-07-14",
+            "price": 15
+          },
+          "sponsorFee": {
+            "productName": "Platinum Sponsorship",
+            "productCode": "PLATCAF2024",
+            "startDate": "2024-01-01",
+            "endDate": "2024-07-10",
+            "price": 8000,
+            "type": "Publicity",
+            "track": "N/A",
+            "session": "N/A"
+          },
+          "transferFee": {
+            "productName": "Transfer Fee",
+            "productCode": "TRANCAF2024",
+            "startDate": "2024-04-01",
+            "endDate": "2024-07-14",
+            "price": 10
+          },
+          "substitutionFee": {
+            "productName": "Substitution Fee",
+            "productCode": "SUBSCAF2024",
+            "startDate": "2024-04-01",
+            "endDate": "2024-07-14",
+            "price": 25
+          }
+        }
+      ],
+      "sessions": [
+        {
+          "sessionId": "S001",
+          "sessionTitle": "Artistic Expression Workshop",
+          "sessionCode": "AEW2024",
+          "startDate": "2024-07-16",
+          "startTime": "10:00 AM",
+          "endDate": "2024-07-16",
+          "endTime": "12:00 PM",
+          "preRegistration": true,
+          "earlyRegistration": true,
+          "standardRegistration": true,
+          "lateRegistration": true,
+          "fees": {
+            "registrationFee": {
+              "productName": "Workshop Registration",
+              "productCode": "WORKREG2024",
+              "startDate": "2024-04-01",
+              "endDate": "2024-07-14",
+              "price": 25
+            }
+          },
+          "location": {
+            "locationName": "Creative Studio",
+            "room": "C1",
+            "setup": "Workshop"
+          },
+          "course": {
+            "courseId": "C004",
+            "courseName": "Exploring Artistic Techniques"
+          },
+          "faculty": {
+            "speakers": ["Vincent Van Gough"],
+            "staff": ["Pablo Picasso"],
+            "volunteers": ["Frida Kahlo"]
+          }
+        },
+        {
+          "sessionId": "S002",
+          "sessionTitle": "Digital Art Innovations",
+          "sessionCode": "DAI2024",
+          "startDate": "2024-07-17",
+          "startTime": "01:00 PM",
+          "endDate": "2024-07-17",
+          "endTime": "03:00 PM",
+          "preRegistration": true,
+          "earlyRegistration": true,
+          "standardRegistration": false,
+          "lateRegistration": false,
+          "fees": {
+            "registrationFee": {
+              "productName": "Digital Art Registration",
+              "productCode": "DIGARTREG2024",
+              "startDate": "2024-04-01",
+              "endDate": "2024-07-14",
+              "price": 30
+            }
+          },
+          "location": {
+            "locationName": "Digital Lab",
+            "room": "D1",
+            "setup": "Classroom"
+          },
+          "course": {
+            "courseId": "C005",
+            "courseName": "Creating Stunning Digital Art"
+          },
+          "faculty": {
+            "speakers": ["Salvador Dali"],
+            "staff": ["Andy Warhol"],
+            "volunteers": ["Georgia O'Keeffe"]
+          }
+        }
+      ],
+      "tracks": [
+        {
+          "sessionId": "T001",
+          "sessionTitle": "Sculpture Techniques",
+          "sessionCode": "ST2024",
+          "startDate": "2024-07-18",
+          "startTime": "09:00 AM",
+          "endDate": "2024-07-18",
+          "endTime": "10:00 AM",
+          "preRegistration": true,
+          "earlyRegistration": true,
+          "standardRegistration": true,
+          "lateRegistration": true,
+          "fees": {
+            "registrationFee": {
+              "productName": "Sculpture Registration",
+              "productCode": "SCULPTREG2024",
+              "startDate": "2024-04-01",
+              "endDate": "2024-07-14",
+              "price": 35
+            }
+          },
+          "location": {
+            "locationName": "Sculpture Hall",
+            "room": "S1",
+            "setup": "Workshop"
+          },
+          "course": {
+            "courseId": "C006",
+            "courseName": "Mastering Sculpture Techniques"
+          },
+          "faculty": {
+            "speakers": ["Michelangelo"],
+            "staff": ["Henry Moore"],
+            "volunteers": ["Louise Bourgeois"]
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "64f8c7cbd7d6f51234a8b004",
+
+      "eventName": "Technology Innovations Expo",
+      "eventCode": "TIE2024",
+      "category": "Technology",
+      "startDate": "2024-08-20",
+      "startTime": "10:00 AM",
+      "endDate": "2024-08-22",
+      "endTime": "06:00 PM",
+      "eventUrl": "https://example.com/tie2024",
+      "registration": {
+        "preRegistrationDate": "2024-05-01",
+        "earlyDate": "2024-06-30",
+        "standardDate": "2024-08-15",
+        "lateDate": "2024-08-19"
+      },
+      "registrationOptions": {
+        "isRegistrationRequired": true,
+        "isFreeEvent": false,
+        "autoRegisterFromWaitlist": false,
+        "isWaitlistAllowed": false,
+        "hasAbstract": true,
+        "isWaiverRequired": false
+      },
+      "miscellaneous": {
+        "fundraisingProduct": "Tech for Tomorrow Fund",
+        "category": "Innovation"
+      },
+      "goals": {
+        "registrationGoal": 500,
+        "revenueGoal": 30000
+      },
+      "attendance": {
+        "projected": 400,
+        "guaranteed": 350,
+        "capacity": 600
+      },
+      "count": {
+        "registeredMain": 300,
+        "registeredGuests": 50,
+        "waitlistMain": 20,
+        "waitlistGuests": 10,
+        "available": 250,
+        "remaining": 150
+      },
+      "publishingAndCommunication": {
+        "postToWebDate": "2024-06-01",
+        "removeDate": "2024-08-23",
+        "timeZone": "GMT-04:00 Eastern Time",
+        "confirmationMessage": "Thank you for registering for the Technology Innovations Expo!"
+      },
+      "location": {
+        "address": "456 Tech Ave",
+        "city": "Tech City",
+        "state": "CA",
+        "country": "USA",
+        "postalCode": "94052",
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "organizer": {
+        "organizerName": "Innovative Tech Corp",
+        "organizerContact": "info@innovativetech.com"
+      },
+      "pricing": {
+        "ticketPrice": 100,
+        "discountCode": "TECH2024",
+        "currency": "USD"
+      },
+      "attendees": {
+        "attendeeCount": 360,
+        "attendeeList": ["Alice Walker", "Robert Brown", "Linda Garcia"]
+      },
+      "socialMedia": {
+        "facebookEventUrl": "https://facebook.com/tie2024",
+        "twitterEventUrl": "https://twitter.com/tie2024",
+        "instagramEventUrl": "https://instagram.com/tie2024"
+      },
+      "fees": [
+        {
+          "registrationFee": {
+            "productName": "Standard Registration",
+            "productCode": "REGTIE2024",
+            "startDate": "2024-05-01",
+            "endDate": "2024-08-19",
+            "price": 100
+          },
+          "cancellationFee": {
+            "productName": "Cancellation Fee",
+            "productCode": "CANC_TIE2024",
+            "startDate": "2024-05-01",
+            "endDate": "2024-08-19",
+            "price": 20
+          },
+          "sponsorFee": {
+            "productName": "Gold Sponsorship",
+            "productCode": "GOLDTIE2024",
+            "startDate": "2024-01-01",
+            "endDate": "2024-08-01",
+            "price": 5000,
+            "type": "Publicity",
+            "track": "N/A",
+            "session": "N/A"
+          },
+          "transferFee": {
+            "productName": "Transfer Fee",
+            "productCode": "TRANSTIE2024",
+            "startDate": "2024-05-01",
+            "endDate": "2024-08-19",
+            "price": 10
+          },
+          "substitutionFee": {
+            "productName": "Substitution Fee",
+            "productCode": "SUBSTIE2024",
+            "startDate": "2024-05-01",
+            "endDate": "2024-08-19",
+            "price": 30
+          }
+        }
+      ],
+      "sessions": [
+        {
+          "sessionId": "S003",
+          "sessionTitle": "Future of AI",
+          "sessionCode": "AIF2024",
+          "startDate": "2024-08-20",
+          "startTime": "11:00 AM",
+          "endDate": "2024-08-20",
+          "endTime": "12:30 PM",
+          "preRegistration": true,
+          "earlyRegistration": true,
+          "standardRegistration": true,
+          "lateRegistration": true,
+          "fees": {
+            "registrationFee": {
+              "productName": "AI Session Registration",
+              "productCode": "AISESSIONREG2024",
+              "startDate": "2024-05-01",
+              "endDate": "2024-08-19",
+              "price": 50
+            }
+          },
+          "location": {
+            "locationName": "Innovation Center",
+            "room": "IC1",
+            "setup": "Theater"
+          },
+          "course": {
+            "courseId": "C007",
+            "courseName": "Artificial Intelligence Revolution"
+          },
+          "faculty": {
+            "speakers": ["Elon Musk"],
+            "staff": ["Sundar Pichai"],
+            "volunteers": ["Mark Zuckerberg"]
+          }
+        },
+        {
+          "sessionId": "S004",
+          "sessionTitle": "Blockchain in Business",
+          "sessionCode": "BIB2024",
+          "startDate": "2024-08-21",
+          "startTime": "02:00 PM",
+          "endDate": "2024-08-21",
+          "endTime": "03:30 PM",
+          "preRegistration": true,
+          "earlyRegistration": true,
+          "standardRegistration": true,
+          "lateRegistration": false,
+          "fees": {
+            "registrationFee": {
+              "productName": "Blockchain Session Registration",
+              "productCode": "BLOCKCHAINREG2024",
+              "startDate": "2024-05-01",
+              "endDate": "2024-08-19",
+              "price": 45
+            }
+          },
+          "location": {
+            "locationName": "Innovation Center",
+            "room": "IC2",
+            "setup": "Classroom"
+          },
+          "course": {
+            "courseId": "C008",
+            "courseName": "Blockchain Basics"
+          },
+          "faculty": {
+            "speakers": ["Vitalik Buterin"],
+            "staff": ["Brian Armstrong"],
+            "volunteers": ["Changpeng Zhao"]
+          }
+        }
+      ],
+      "tracks": []
+    },
+    {
+      "eventId": "64f8c7cbd7d6f51234a8b005",
+      "eventName": "Culinary Delights Expo",
+      "eventCode": "CDE2024",
+      "category": "Food & Drink",
+      "startDate": "2024-09-10",
+      "startTime": "11:00 AM",
+      "endDate": "2024-09-12",
+      "endTime": "05:00 PM",
+      "eventUrl": "https://example.com/cde2024",
+      "registration": {
+        "preRegistrationDate": "2024-06-01",
+        "earlyDate": "2024-07-31",
+        "standardDate": "2024-09-05",
+        "lateDate": "2024-09-09"
+      },
+      "registrationOptions": {
+        "isRegistrationRequired": true,
+        "isFreeEvent": false,
+        "autoRegisterFromWaitlist": false,
+        "isWaitlistAllowed": true,
+        "hasAbstract": true,
+        "isWaiverRequired": false
+      },
+      "miscellaneous": {
+        "fundraisingProduct": "Culinary Arts Fund",
+        "category": "Gastronomy"
+      },
+      "goals": {
+        "registrationGoal": 800,
+        "revenueGoal": 40000
+      },
+      "attendance": {
+        "projected": 600,
+        "guaranteed": 500,
+        "capacity": 800
+      },
+      "count": {
+        "registeredMain": 400,
+        "registeredGuests": 50,
+        "waitlistMain": 30,
+        "waitlistGuests": 20,
+        "available": 250,
+        "remaining": 100
+      },
+      "publishingAndCommunication": {
+        "postToWebDate": "2024-07-01",
+        "removeDate": "2024-09-13",
+        "timeZone": "GMT-05:00 Eastern Time",
+        "confirmationMessage": "Thank you for registering for the Culinary Delights Expo!"
+      },
+      "location": {
+        "address": "321 Culinary St",
+        "city": "Food City",
+        "state": "CA",
+        "country": "USA",
+        "postalCode": "94053",
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "organizer": {
+        "organizerName": "Gastronomy Events LLC",
+        "organizerContact": "info@gastronomyevents.com"
+      },
+      "pricing": {
+        "ticketPrice": 85,
+        "discountCode": "CULINARY2024",
+        "currency": "USD"
+      },
+      "attendees": {
+        "attendeeCount": 450,
+        "attendeeList": ["Chef John", "Sous Chef Anna", "Baker Bob"]
+      },
+      "socialMedia": {
+        "facebookEventUrl": "https://facebook.com/cde2024",
+        "twitterEventUrl": "https://twitter.com/cde2024",
+        "instagramEventUrl": "https://instagram.com/cde2024"
+      },
+      "fees": [
+        {
+          "registrationFee": {
+            "productName": "Standard Registration",
+            "productCode": "REGCDE2024",
+            "startDate": "2024-06-01",
+            "endDate": "2024-09-09",
+            "price": 85
+          },
+          "cancellationFee": {
+            "productName": "Cancellation Fee",
+            "productCode": "CANC_CDE2024",
+            "startDate": "2024-06-01",
+            "endDate": "2024-09-09",
+            "price": 15
+          },
+          "sponsorFee": {
+            "productName": "Silver Sponsorship",
+            "productCode": "SILVERCDE2024",
+            "startDate": "2024-02-01",
+            "endDate": "2024-09-01",
+            "price": 3000,
+            "type": "Promotion",
+            "track": "N/A",
+            "session": "N/A"
+          },
+          "transferFee": {
+            "productName": "Transfer Fee",
+            "productCode": "TRANS_CDE2024",
+            "startDate": "2024-06-01",
+            "endDate": "2024-09-09",
+            "price": 10
+          },
+          "substitutionFee": {
+            "productName": "Substitution Fee",
+            "productCode": "SUBCDE2024",
+            "startDate": "2024-06-01",
+            "endDate": "2024-09-09",
+            "price": 25
+          }
+        }
+      ],
+      "sessions": [
+        {
+          "sessionId": "S005",
+          "sessionTitle": "Gourmet Cooking Techniques",
+          "sessionCode": "GCT2024",
+          "startDate": "2024-09-10",
+          "startTime": "01:00 PM",
+          "endDate": "2024-09-10",
+          "endTime": "02:30 PM",
+          "preRegistration": true,
+          "earlyRegistration": true,
+          "standardRegistration": true,
+          "lateRegistration": true,
+          "fees": {
+            "registrationFee": {
+              "productName": "Cooking Session Registration",
+              "productCode": "COOKINGREG2024",
+              "startDate": "2024-06-01",
+              "endDate": "2024-09-09",
+              "price": 40
+            }
+          },
+          "location": {
+            "locationName": "Culinary Institute",
+            "room": "CI1",
+            "setup": "Kitchen"
+          },
+          "course": {
+            "courseId": "C009",
+            "courseName": "Culinary Skills Masterclass"
+          },
+          "faculty": {
+            "speakers": ["Chef Gordon Ramsay"],
+            "staff": ["Chef Jamie Oliver"],
+            "volunteers": ["Chef Nigella Lawson"]
+          }
+        },
+        {
+          "sessionId": "S006",
+          "sessionTitle": "Baking Mastery",
+          "sessionCode": "BM2024",
+          "startDate": "2024-09-11",
+          "startTime": "03:00 PM",
+          "endDate": "2024-09-11",
+          "endTime": "04:30 PM",
+          "preRegistration": true,
+          "earlyRegistration": true,
+          "standardRegistration": true,
+          "lateRegistration": false,
+          "fees": {
+            "registrationFee": {
+              "productName": "Baking Session Registration",
+              "productCode": "BAKINGREG2024",
+              "startDate": "2024-06-01",
+              "endDate": "2024-09-09",
+              "price": 35
+            }
+          },
+          "location": {
+            "locationName": "Culinary Institute",
+            "room": "CI2",
+            "setup": "Kitchen"
+          },
+          "course": {
+            "courseId": "C010",
+            "courseName": "Baking Techniques Course"
+          },
+          "faculty": {
+            "speakers": ["Pastry Chef Pierre"],
+            "staff": ["Chef Ina Garten"],
+            "volunteers": ["Chef Rachel Ray"]
+          }
+        }
+      ],
+      "tracks": []
+    }
+  ]
+}
